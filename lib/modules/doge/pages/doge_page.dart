@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_template/modules/doge/providers/doge_images_provider.dart';
-import 'package:flutter_template/modules/doge/widgets/doge_image.dart';
+import 'package:cico/modules/doge/providers/doge_images_provider.dart';
+import 'package:cico/modules/doge/widgets/doge_image.dart';
 import 'package:go_router/go_router.dart';
 
 class DogePage extends ConsumerWidget {

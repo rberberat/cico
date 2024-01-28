@@ -1,7 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_template/modules/global/providers/package_info.dart';
+import 'package:cico/modules/global/providers/package_info.dart';
 import 'package:gap/gap.dart';
 import 'package:sheet/sheet.dart';
 

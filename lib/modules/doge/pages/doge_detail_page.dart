@@ -1,7 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_template/modules/doge/actions/share_doge_image.dart';
-import 'package:flutter_template/modules/doge/widgets/doge_image.dart';
+import 'package:cico/modules/doge/actions/share_doge_image.dart';
+import 'package:cico/modules/doge/widgets/doge_image.dart';
 
 class DogeDetailPage extends StatelessWidget {
   const DogeDetailPage({required this.imageUrl, super.key});

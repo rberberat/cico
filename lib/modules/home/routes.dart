@@ -1,5 +1,5 @@
-import 'package:flutter_template/modules/global/routes.dart';
-import 'package:flutter_template/modules/home/pages/home_page.dart';
+import 'package:cico/modules/global/routes.dart';
+import 'package:cico/modules/home/pages/home_page.dart';
 import 'package:go_router/go_router.dart';
 
 final homeRoutes = [

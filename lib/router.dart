@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_template/constants/keys.dart';
-import 'package:flutter_template/modules/doge/routes.dart';
-import 'package:flutter_template/modules/home/routes.dart';
-import 'package:flutter_template/modules/more/routes.dart';
-import 'package:flutter_template/shell.dart';
+import 'package:cico/constants/keys.dart';
+import 'package:cico/modules/doge/routes.dart';
+import 'package:cico/modules/home/routes.dart';
+import 'package:cico/modules/more/routes.dart';
+import 'package:cico/shell.dart';
 import 'package:go_router/go_router.dart';
 
 final router = GoRouter(

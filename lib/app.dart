@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_template/router.dart';
-import 'package:flutter_template/themes/color_schemes.dart';
-import 'package:flutter_template/themes/text_theme.dart';
+import 'package:cico/router.dart';
+import 'package:cico/themes/color_schemes.dart';
+import 'package:cico/themes/text_theme.dart';
 
 class AwesomeApp extends StatelessWidget {
   const AwesomeApp({super.key});
