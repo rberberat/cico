@@ -27,6 +27,10 @@ class RootShell extends ConsumerWidget {
             label: 'doge.nav'.tr(),
           ),
           NavigationDestination(
+            icon: const Icon(Icons.shopping_bag),
+            label: 'products.nav'.tr(),
+          ),
+          NavigationDestination(
             icon: const Icon(Icons.more_horiz),
             label: 'more.nav'.tr(),
           ),

@@ -19,6 +19,12 @@
     "title": "Doge as a Service!",
     "detail": "Such Doge! Much wow!",
     "share_subject": "Such Doge! Much wow!"
+  },  
+  "products": {
+    "nav": "Products",
+    "title": "Your Products",
+    "detail": "Yum Yum",
+    "share_subject": "Such Doge! Much wow!"
   },
   "more": {
     "nav": "Mehr",

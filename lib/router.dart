@@ -1,9 +1,10 @@
-import 'package:flutter/foundation.dart';
 import 'package:cico/constants/keys.dart';
 import 'package:cico/modules/doge/routes.dart';
 import 'package:cico/modules/home/routes.dart';
 import 'package:cico/modules/more/routes.dart';
+import 'package:cico/modules/products/routes.dart';
 import 'package:cico/shell.dart';
+import 'package:flutter/foundation.dart';
 import 'package:go_router/go_router.dart';
 
 final router = GoRouter(
@@ -12,7 +13,8 @@ final router = GoRouter(
   debugLogDiagnostics: kDebugMode,
   routes: <RouteBase>[
     StatefulShellRoute.indexedStack(
-      builder: (context, state, navigationShell) => RootShell(navigationShell: navigationShell),
+      builder: (context, state, navigationShell) =>
+          RootShell(navigationShell: navigationShell),
       branches: [
         // Home
         StatefulShellBranch(
@@ -26,6 +28,13 @@ final router = GoRouter(
           routes: dogeRoutes,
           initialLocation: '/doge',
           navigatorKey: dogsNavigatorKey,
+        ),
+
+        // Products
+        StatefulShellBranch(
+          routes: productRoutes,
+          initialLocation: '/products',
+          navigatorKey: productsNavigatorKey,
         ),
 
         // More
