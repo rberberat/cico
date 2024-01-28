@@ -1,7 +1,7 @@
-import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter/material.dart';
 import 'package:cico/modules/more/actions/change_language.dart';
 import 'package:cico/modules/more/actions/launch_browser.dart';
+import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 class MorePage extends StatelessWidget {
